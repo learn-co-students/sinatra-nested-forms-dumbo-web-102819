@@ -1,7 +1,16 @@
 <h1>Display your Pirate here</h1>
-
+<h2>Pirate Name: <%= @pirate['pirate']['name']%></h2>
+<h3>Pirate Weight: <%= @pirate['pirate']['weight'] %></h3>
+<h3>Pirate Height: <%= @pirate['pirate']['height']%></h3>
 
 <h2>Display your first ship here</h2>
 
+<h3>Ship Name: <%= @pirate['pirate']['ships'][0]['name']%></h2>
+<h4>Ship Type: <%= @pirate['pirate']['ships'][0]['type'] %></h3>
+<h4>Ship Booty: <%= @pirate['pirate']['ships'][0]['booty']%></h3>
 
 <h2>Display your second ship here</h2>
+
+<h3>Ship Name: <%= @pirate['pirate']['ships'][1]['name']%></h2>
+<h4>Ship Type: <%= @pirate['pirate']['ships'][1]['type'] %></h3>
+<h4>Ship Booty: <%= @pirate['pirate']['ships'][1]['booty']%></h3>
